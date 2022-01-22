@@ -1,0 +1,7 @@
+# vim
+Session.vim
+*.swo
+*.swp
+*.swn
+*.swm
+*.swl
