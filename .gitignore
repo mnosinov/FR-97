@@ -5,3 +5,6 @@ Session.vim
 *.swn
 *.swm
 *.swl
+
+# ctags
+ctags
