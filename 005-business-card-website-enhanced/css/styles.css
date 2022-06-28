@@ -1,0 +1,61 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-color: #cfe9ee;
+}
+
+footer {
+	border-top: solid black 1px;
+	padding: 1em 0;
+}
+
+.page-title {
+	background-color: #5ccccc;
+	padding: 0.8em
+}
+
+.sub-title {
+	border-left: solid 0.5em cyan;
+	padding-left: 0.5em;
+	color: brown;
+	margin-top: 2em;
+
+}
+
+#main_menu {
+	border-bottom: solid black 1px;
+}
+
+#main_menu ul li {
+	display: inline;
+}
+
+#main_menu ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	margin: 0;
+	padding: 0.3em 0.5em;
+	border-radius: 7px;
+}
+
+#main_menu ul li a:link {
+	background-color: #2A7A6D;
+}
+
+
+#main_menu ul li a:hover {
+	background-color: #6C8D88;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	transition: margin;
+}
+
+#photo {
+	border: solid black 1px;
+	background-color: black;
+	padding: 1px;
+}
