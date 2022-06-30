@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flexbox</title>
+	<style>
+		.gallery {
+				display: flex;
+		}
+		.gallery-1,.gallery-3 {
+				flex-direction: row-reverse;
+		}
+		.gallery-2 {
+				flex-direction: row;
+		}
+	</style>
+</head>
+<body>
+
+	<h2>Gallery 1</h2>
+	<div class="gallery gallery-1">
+		<img src="img/photo-1.jpg" width="100px" alt="">
+		<img src="img/photo-2.jpg" width="100px" alt="">
+		<img src="img/photo-3.jpg" width="100px" alt="">
+	</div>
+	<h2>Gallery 2</h2>
+	<div class="gallery gallery-2">
+		<img src="img/photo-4.jpg" width="100px" alt="">
+		<img src="img/photo-5.jpg" width="100px" alt="">
+		<img src="img/photo-6.jpg" width="100px" alt="">
+	</div>
+	<h2>Gallery 3</h2>
+	<div class="gallery gallery-3">
+		<img src="img/photo-7.jpg" width="100px" alt="">
+		<img src="img/photo-8.jpg" width="100px" alt="">
+		<img src="img/photo-9.jpg" width="100px" alt="">
+	</div>
+</body>
+</html>
