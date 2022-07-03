@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		.item-1 {
+				background-color: rgb(161, 48, 48);
+		}
+
+		.item-2 {
+				background-color: rgb(49, 163, 68);
+		}
+
+		.item-3 {
+				background-color: rgb(34, 32, 180);
+		}
+
+		.item-4 {
+				background-color: rgb(207, 219, 29);
+		}
+
+		.item-5 {
+				background-color: rgb(175, 52, 165);
+		}
+
+		.grid-wrapper {
+			display: grid;
+			/* grid-template-columns: 500px 200px;
+			grid-template-rows: 100px 300px 100px; */
+			grid-template-columns: repeat(2, 200px);
+			grid-template-rows: repeat(3, 100px);
+		}
+	</style>
+</head>
+<body>
+
+	<div class="grid-wrapper">
+		<div class="grid-item item-1"></div>
+		<div class="grid-item item-2"></div>
+		<div class="grid-item item-3"></div>
+		<div class="grid-item item-4"></div>
+		<div class="grid-item item-5"></div>
+	</div>
+	
+</body>
+</html>
